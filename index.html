@@ -497,7 +497,7 @@ footer .brand small{color:#fff}
         </div>
       </div>
       <div class="pcard" data-k="gamedisplay">
-        <div class="pm"><video src="将进酒游戏视频.mp4" autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;display:block;"></video></div>
+        <div class="pm"><video src="https://cdn.jsdelivr.net/gh/wzh2026-wq/wangzihan-portfolio@main/%E5%B0%86%E8%BF%9B%E9%85%92%E6%B8%B8%E6%88%8F%E8%A7%86%E9%A2%91.mp4" poster="https://cdn.jsdelivr.net/gh/wzh2026-wq/wangzihan-portfolio@main/images/cover_jj.jpg" autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;display:block;"></video></div>
         <div class="pbody">
           <div class="kicker">Mobile Game · 水墨解谜</div>
           <h3>《将进酒》· 汉字解谜手游</h3>
@@ -506,7 +506,7 @@ footer .brand small{color:#fff}
         </div>
       </div>
       <div class="pcard" data-k="award" style="grid-column:1/-1">
-        <div class="pt" style="aspect-ratio:auto;overflow:hidden;display:block;align-items:initial;justify-content:initial;background:none;"><video src="检察官游戏视频.mp4" poster="https://cdn.jsdelivr.net/gh/wzh2026-wq/wangzihan-portfolio@main/images/cover11.png" autoplay muted loop playsinline style="width:100%;display:block;"></video></div>
+        <div class="pt" style="aspect-ratio:auto;overflow:hidden;display:block;align-items:initial;justify-content:initial;background:none;"><video src="https://cdn.jsdelivr.net/gh/wzh2026-wq/wangzihan-portfolio@main/%E6%A3%80%E5%AF%9F%E5%AE%98%E6%B8%B8%E6%88%8F%E8%A7%86%E9%A2%91.mp4" poster="https://cdn.jsdelivr.net/gh/wzh2026-wq/wangzihan-portfolio@main/images/cover11.png" autoplay muted loop playsinline style="width:100%;display:block;"></video></div>
         <div class="pbody">
           <div class="kicker">Award · Game</div>
           <h3>《最强检察官》 · 未来设计师奖</h3>
@@ -543,7 +543,7 @@ footer .brand small{color:#fff}
     </div>
     <div class="works-grid" id="aigc-grid" style="margin-top:30px;grid-template-columns:repeat(2,1fr)">
       <div class="pcard" data-k="aigc1">
-        <div class="pm" style="aspect-ratio:16/9;overflow:hidden;"><video src="露露的丛林历险记.mp4" autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;display:block;"></video></div>
+        <div class="pm" style="aspect-ratio:16/9;overflow:hidden;"><video src="https://cdn.jsdelivr.net/gh/wzh2026-wq/wangzihan-portfolio@main/%E9%9C%B2%E9%9C%B2%E7%9A%84%E4%B8%9B%E6%9E%97%E5%8E%86%E9%99%A9%E8%AE%B0.mp4" poster="https://cdn.jsdelivr.net/gh/wzh2026-wq/wangzihan-portfolio@main/images/cover_lulu.jpg" autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;display:block;"></video></div>
         <div class="pbody">
           <div class="kicker">AIGC · 文生视频</div>
           <h3>露露的丛林历险记</h3>
@@ -551,7 +551,7 @@ footer .brand small{color:#fff}
         </div>
       </div>
       <div class="pcard" data-k="aigc2">
-        <div class="pm" style="aspect-ratio:16/9;overflow:hidden;"><video src="aigc广告短片.mp4" autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;display:block;"></video></div>
+        <div class="pm" style="aspect-ratio:16/9;overflow:hidden;"><video src="https://cdn.jsdelivr.net/gh/wzh2026-wq/wangzihan-portfolio@main/aigc%E5%B9%BF%E5%91%8A%E7%9F%AD%E7%89%87.mp4" poster="https://cdn.jsdelivr.net/gh/wzh2026-wq/wangzihan-portfolio@main/images/cover_aigc.jpg" autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;display:block;"></video></div>
         <div class="pbody">
           <div class="kicker">AIGC · 图生视频</div>
           <h3>AIGC广告短片</h3>
@@ -559,7 +559,7 @@ footer .brand small{color:#fff}
         </div>
       </div>
       <div class="pcard" data-k="aigc3" style="grid-column:1/-1">
-        <div class="pm" style="aspect-ratio:21/9;overflow:hidden;border-radius:14px;"><video src="五行共生.mp4" autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;display:block;"></video></div>
+        <div class="pm" style="aspect-ratio:21/9;overflow:hidden;border-radius:14px;"><video src="https://cdn.jsdelivr.net/gh/wzh2026-wq/wangzihan-portfolio@main/%E4%BA%94%E8%A1%8C%E5%85%B1%E7%94%9F.mp4" poster="https://cdn.jsdelivr.net/gh/wzh2026-wq/wangzihan-portfolio@main/images/cover_wx.jpg" autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;display:block;"></video></div>
         <div class="pbody">
           <div class="kicker">AIGC · 精选</div>
           <h3>五行共生</h3>
@@ -1288,7 +1288,7 @@ footer .brand small{color:#fff}
         } else if(g.i){
           html+='<div class="g-item" style="border-radius:8px;overflow:hidden;"><img src="'+g.i+'" alt="'+(g.c||'')+'" style="width:100%;display:block;"></div>';
         } else if(g.v){
-          html+='<div class="g-video"><video src="'+g.v+'" controls playsinline></video></div>';
+          html+='<div class="g-video"><video src="'+(g.v.indexOf('http')===0?g.v:'https://cdn.jsdelivr.net/gh/wzh2026-wq/wangzihan-portfolio@main/'+encodeURIComponent(g.v))+'" controls playsinline></video></div>';
         }
       });
       html+='</div>';
